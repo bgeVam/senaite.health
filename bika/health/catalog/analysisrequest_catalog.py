@@ -25,6 +25,7 @@ from bika.lims.catalog import CATALOG_ANALYSIS_REQUEST_LISTING
 analysisrequest_catalog_definition = {
     CATALOG_ANALYSIS_REQUEST_LISTING: {
             'indexes': {
+                'getClientReference': 'FieldIndex',
                 'getDoctorUID': 'FieldIndex',
                 'getPatientUID': 'FieldIndex',
 
